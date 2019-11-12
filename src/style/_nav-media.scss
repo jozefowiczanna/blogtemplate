@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+  .menu {
+    &--secondary &__item {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+
+  .nav {
+
+    &__inner {
+      padding: 0;
+    }
+
+    &__title {
+      font-size: 18px;
+      padding: 18px 25px;
+    }  
+  }
+
+  .menu {
+    &__item {
+      display: none;
+    }
+  }
+}
