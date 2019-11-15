@@ -1,0 +1,23 @@
+.post-info {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "PT Sans";
+
+  &--on-image {
+    position: absolute;
+    right: 35px;
+    bottom: 25px;
+  }
+
+  &__date {
+    color: #b0b0b0;
+    padding-right: 10px;
+    border-right: 1px solid #b0b0b0;
+  }
+  
+  &__author {
+    color: #1a54e7;
+    text-decoration: underline;
+    margin-left: 10px;
+  }
+}

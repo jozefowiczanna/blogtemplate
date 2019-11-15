@@ -6,6 +6,8 @@
   font-family: 'PT Sans', sans-serif;
   width: 100%;
   position: fixed;
+  z-index: 9999;
+  background: white;
 
   &__inner {
     max-width: 1230px;
@@ -108,7 +110,7 @@
   }
 }
 
-.more-btn {
+.nav-btn {
   background: none;
   position: relative;
   min-width: 50px;
@@ -137,4 +139,3 @@
     border-radius: 50%;
   }
 }
-

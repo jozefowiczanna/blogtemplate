@@ -1,0 +1,45 @@
+.category {
+  color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 18px;
+  background-color: #1a54e7;
+  margin-right: 20px;
+  display: inline-block;
+  text-decoration: none;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  bottom: 25px;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.category--people {
+  background-color: #1a54e7;
+}
+
+.category--trips {
+  background-color: #d90445;
+}
+
+.category--tech {
+  background-color: #000000;
+}
+
+.category--nature {
+  background-color: #58b600;
+}
+
+.category--fashion {
+  background-color: #8200b2;
+}
+
+.category--primary {
+  bottom: auto;
+  position: static;
+}

@@ -13,7 +13,9 @@ const cssnano = require('cssnano');
 const config = {
     app: {
         js: [
-            './src/scripts/**/*.js',
+            './src/scripts/jquery-3.4.1.min.js',
+            './src/scripts/skippr.js',
+            './src/scripts/main.js',
         ],
         scss: './src/style/**/*.scss',
         fonts: './src/fonts/*',

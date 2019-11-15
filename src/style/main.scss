@@ -15,7 +15,10 @@ body {
   border: none;
   cursor: pointer;
 }
-
+@import "skippr";
+@import "category";
 @import "nav";
-
 @import "nav-media";
+@import "post-info";
+@import "hero";
+@import "posts";
