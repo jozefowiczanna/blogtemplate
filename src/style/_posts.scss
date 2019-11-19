@@ -26,7 +26,6 @@
   margin: 0 10px 0;
 
   &--small {
-    // max-width: 380px;
     width: 31%;
     margin-bottom: 50px;
     margin: 0 5px 50px;
@@ -86,6 +85,10 @@
     &--big {
       font-size: 48px;
       text-align: center;
+    }
+
+    &--small {
+      font-size: 18px;
     }
   }
 
@@ -168,6 +171,10 @@
     &__title--big {
       max-width: 300px;
       font-size: 30px;
+    }
+
+    &__title--mobile-small {
+      font-size: 18px;
     }
 
     &__lead {

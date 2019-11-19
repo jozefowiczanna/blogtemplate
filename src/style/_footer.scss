@@ -1,0 +1,22 @@
+.footer {
+  max-width: 670px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  text-align: center;
+
+  color: #93959b;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  &__link {
+    font-weight: 700;
+    color: #93959b;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
