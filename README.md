@@ -1,4 +1,8 @@
-# gulp-4
-Gulp 4 Default Starter - simple configuration for your static page project
+# PSD to HTML
 
-Very Basic configuration for simple projects. If you want code more fancy JS please use Webpack :) I've got simple repo for that if interested - https://github.com/bartcis/webpack4
+I coded this project to practice BEM + SASS.
+
+Sources:
+- PSD template from Symu.co
+- tree image from Unsplash
+- Skippr slider plugin https://austenpayan.github.io/skippr/
