@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog template</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.bundle.css">
+</head>
+<body>
+
+  <header>
+      <nav class="nav">
+        <div class="nav__inner">
+          <a class="nav__logo" href="#">
+            <h1 class="nav__title">
+              Blog <span class="nav__title--bold">template</span>
+            </h1>
+          </a>
+          <div class="search">
+          <form class="search__form">
+            <input class="search__input" type="search" id="mySearch" name="search">
+            <button class="btn search__btn search__btn--small">
+                <img class="search__icon" src="images/search-icon.png" alt="search icon">
+              </button>
+          </form>
+          </div>
+          <button class="btn search__btn search__btn-js">
+            <img class="search__icon" src="images/search-icon.png" alt="search icon">
+          </button>
+          <div class="menu-wrapper">
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Cooperation</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+            </ul>
+            <ul class="menu menu--secondary">
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Nature</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">People</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Trips</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Animals</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Fashion</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Tech</a></li>
+            </ul>
+          </div>
+          <button class="hamburger">
+              <span class="hamburger__box">
+                <span class="hamburger__inner"></span>
+              </span>
+            </button>
+        </div>
+        
+      </nav>
+
+      <div class="hero">
+        <div class="hero__content">
+            <img class="hero__image" src="images/person.png" alt="image">
+            <p class="hero__text">Maecenas quis lobortis nunc. Nullam sit
+              vel odio congue vulputate a ut nisi.</p>
+        </div>
+        <div class="hero__footer-wrapper">
+          <div class="hero__footer">
+            <a href="#" class="category category--people category--primary">
+              People
+            </a>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </div>
+        </div class="footer-wrapper">
+        <div class="container" id="container">
+          <div id="theTarget">
+              <div style="background-image: url(images/tree.jpg)"></div>
+              <div style="background-image: url(images/banner.jpg)"></div>
+              <div style="background-image: url(images/banner.jpg)"></div>
+              <div style="background-image: url(images/banner.jpg)"></div>
+          </div>    
+        </div>
+      </div>
+  </header> 
+    <main>
+      <!-- posts -->
+      <section class="posts posts--dark-bg">
+        <div class="posts__wrapper">
+
+          <article class="post post--medium">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-01.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--trips">Trips</a>
+            </div>
+            <h3 class="post__title post__title--mobile-small">
+              Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+          <article class="post post--medium">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-02.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--tech">Tech</a>
+            </div>
+            <h3 class="post__title post__title--mobile-small">
+              Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+      <!-- end of posts -->
+
+      <!-- posts -->
+      <section class="posts">
+        <div class="posts__wrapper">
+
+          <article class="post post--big post--desktop">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <div class="post__lead">
+                  <h3 class="post__title post__title--big">
+                      Proin congue elit fringilla
+                  </h3>
+                  <p class="post__text">sodales tellus interdum fermentum nulla. Aliquam vitae arcu condimentum,
+                      consectetur diam sed, ultrices urna. </p>
+                </div>
+                <img src="images/thumb-09.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--trips">Trips</a>
+              <div class="post-info post-info--on-image">
+                <span class="post-info__date">14 september 2016</span>
+                <a href="#" class="post-info__author">John Doe</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="post post--small post--mobile post--margin">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-09-small.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--trips">Trips</a>
+            </div>
+            <h3 class="post__title post__title--mobile-small">
+                Proin congue elit fringilla</h3>
+            
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+      <!-- end of posts -->
+
+      <!-- posts -->
+      <section class="posts">
+        <div class="posts__wrapper posts__wrapper--wrap posts__wrapper--padding">
+
+          <article class="post post--small">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-03.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--nature">Nature</a>
+            </div>
+            <h3 class="post__title post__title--small">
+              Donec elementum dui semper, pretium dui quis, pretium nisl. Nunc quis ornare odio.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+          <article class="post post--small">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-04.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--people">People</a>
+            </div>
+            <h3 class="post__title post__title--small">
+              Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+          <article class="post post--small">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-05.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--tech">Tech</a>
+            </div>
+            <h3 class="post__title post__title--small">
+              Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+          <article class="post post--small">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-06.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--trips">Trips</a>
+            </div>
+            <h3 class="post__title post__title--small">
+              Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+          <article class="post post--small">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-07.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--trips">Trips</a>
+            </div>
+            <h3 class="post__title post__title--small">
+              Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+          <article class="post post--small">
+            <div class="post__image-wrapper">
+              <a href="#" class="post__image-link">
+                <img src="images/thumb-08.jpg" alt="" class="post__image">
+              </a>
+              <a href="#" class="category category--fashion">Fashion</a>
+            </div>
+            <h3 class="post__title post__title--small">
+              Maecenas quis lobortis nunc. Nullam sit amet augue vel odio congue vulputate a ut nisi.
+            </h3>
+            <div class="post-info">
+              <span class="post-info__date">14 september 2016</span>
+              <a href="#" class="post-info__author">John Doe</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+      <!-- end of posts -->
+
+      <section class="newsletter">
+        <form class="newsletter__wrapper">
+          <h2 class="newsletter__title">
+            Newsletter
+          </h2>
+          <label for="email" class="newsletter__label">
+            Donec elementum dui semper, pretium dui quis, pretium nisl.
+          </label>
+          <div class="newsletter__submit">
+            <input class="newsletter__input" id="email" type="email" maxlength="100"
+            autocomplete="off" required>
+            <div class="newsletter__element"></div>
+            <button class="newsletter__button" type="submit">Sign up</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Try awsome tool for desgners <a href="https://symu.co/" class="footer__link">symu.co</a>
+    </footer>
+    <script src="main.bundle.js"></script>
+</body>
+
+</html>
