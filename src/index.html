@@ -19,34 +19,44 @@
               Blog <span class="nav__title--bold">template</span>
             </h1>
           </a>
-          <button class="btn nav__search">
-            <img class="nav__search-icon" src="images/search-icon.png" alt="search icon">
+          <div class="search">
+          <form class="search__form">
+            <input class="search__input" type="search" id="mySearch" name="search">
+            <button class="btn search__btn search__btn--small">
+                <img class="search__icon" src="images/search-icon.png" alt="search icon">
+              </button>
+          </form>
+          </div>
+          <button class="btn search__btn search__btn-js">
+            <img class="search__icon" src="images/search-icon.png" alt="search icon">
           </button>
-          <ul class="menu">
-            <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Cooperation</a></li>
-            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
-          </ul>
-          <ul class="menu menu--secondary">
-            <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Nature</a></li>
-            <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">People</a></li>
-            <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Trips</a></li>
-            <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Animals</a></li>
-            <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Fashion</a></li>
-            <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Tech</a></li>
-            <button class="btn nav-btn">
-              <span class="nav-btn__dot"></span>
-              <span class="nav-btn__dot"></span>
-              <span class="nav-btn__dot"></span>
+          <div class="menu-wrapper">
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Cooperation</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+            </ul>
+            <ul class="menu menu--secondary">
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Nature</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">People</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Trips</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Animals</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Fashion</a></li>
+              <li class="menu__item"><a class="menu__link menu__link--secondary" href="#">Tech</a></li>
+            </ul>
+          </div>
+          <button class="hamburger">
+              <span class="hamburger__box">
+                <span class="hamburger__inner"></span>
+              </span>
             </button>
-          </ul>
         </div>
         
       </nav>
 
       <div class="hero">
         <div class="hero__content">
-            <img class="hero__image" src="../images/person.png" alt="image">
+            <img class="hero__image" src="images/person.png" alt="image">
             <p class="hero__text">Maecenas quis lobortis nunc. Nullam sit
               vel odio congue vulputate a ut nisi.</p>
         </div>
@@ -63,14 +73,10 @@
         </div class="footer-wrapper">
         <div class="container" id="container">
           <div id="theTarget">
-              <div style="background-image: url(../images/banner.jpg)">
-              <div class="slide">Maecenas quis lobortis nunc. Nullam sit
-                vel odio congue vulputate a ut nisi.</div>
-              </div>
-              <div style="background-image: url(../images/banner.jpg)"></div>
-              <div style="background-image: url(../images/banner.jpg)"></div>
-              <div style="background-image: url(../images/banner.jpg)"></div>
-              <div style="background-image: url(../images/banner.jpg)"></div>
+              <div style="background-image: url(images/tree.jpg)"></div>
+              <div style="background-image: url(images/banner.jpg)"></div>
+              <div style="background-image: url(images/banner.jpg)"></div>
+              <div style="background-image: url(images/banner.jpg)"></div>
           </div>    
         </div>
       </div>
@@ -83,7 +89,7 @@
           <article class="post post--medium">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-01.jpg" alt="" class="post__image">
+                <img src="images/thumb-01.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--trips">Trips</a>
             </div>
@@ -99,7 +105,7 @@
           <article class="post post--medium">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-02.jpg" alt="" class="post__image">
+                <img src="images/thumb-02.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--tech">Tech</a>
             </div>
@@ -130,7 +136,7 @@
                   <p class="post__text">sodales tellus interdum fermentum nulla. Aliquam vitae arcu condimentum,
                       consectetur diam sed, ultrices urna. </p>
                 </div>
-                <img src="../images/thumb-09.jpg" alt="" class="post__image">
+                <img src="images/thumb-09.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--trips">Trips</a>
               <div class="post-info post-info--on-image">
@@ -143,7 +149,7 @@
           <article class="post post--small post--mobile post--margin">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-09-small.jpg" alt="" class="post__image">
+                <img src="images/thumb-09-small.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--trips">Trips</a>
             </div>
@@ -167,7 +173,7 @@
           <article class="post post--small">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-03.jpg" alt="" class="post__image">
+                <img src="images/thumb-03.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--nature">Nature</a>
             </div>
@@ -183,7 +189,7 @@
           <article class="post post--small">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-04.jpg" alt="" class="post__image">
+                <img src="images/thumb-04.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--people">People</a>
             </div>
@@ -199,7 +205,7 @@
           <article class="post post--small">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-05.jpg" alt="" class="post__image">
+                <img src="images/thumb-05.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--tech">Tech</a>
             </div>
@@ -215,7 +221,7 @@
           <article class="post post--small">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-06.jpg" alt="" class="post__image">
+                <img src="images/thumb-06.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--trips">Trips</a>
             </div>
@@ -231,7 +237,7 @@
           <article class="post post--small">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-07.jpg" alt="" class="post__image">
+                <img src="images/thumb-07.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--trips">Trips</a>
             </div>
@@ -247,7 +253,7 @@
           <article class="post post--small">
             <div class="post__image-wrapper">
               <a href="#" class="post__image-link">
-                <img src="../images/thumb-08.jpg" alt="" class="post__image">
+                <img src="images/thumb-08.jpg" alt="" class="post__image">
               </a>
               <a href="#" class="category category--fashion">Fashion</a>
             </div>

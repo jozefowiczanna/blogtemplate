@@ -60,6 +60,10 @@
 
 /* skippr custom style */
 
+.skippr > div:first-of-type {
+  background-position: 10% 62.5% !important;
+}
+
 .skippr-arrow {
   width: 58px;
   height: 58px;
@@ -97,11 +101,6 @@
 }
 
 @media (max-width: 992px) {
-  .skippr-arrow {
-    display: none;
-  }
-
-
   .hero {
     
     &__content {
@@ -115,15 +114,20 @@
 
     &__text {
       font-size: 30px;
+      padding: 0 20px;
     }
   }
 }
 
 @media (max-width: 576px) {
+  .skippr-arrow {
+    display: none;
+  }
+
   .hero {
     &__text {
       font-size: 25px;
-      // display: none;
+      padding: 0;
     }
 
     &__footer {

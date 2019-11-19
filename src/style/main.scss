@@ -11,6 +11,11 @@ body {
   font-family: 'PT Serif', serif;
 }
 
+.resize-animation-stopper * {
+  transition: none !important;
+  animation: none !important;
+}
+
 .btn {
   border: none;
   cursor: pointer;
